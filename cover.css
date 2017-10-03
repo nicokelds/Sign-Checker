@@ -1,0 +1,180 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  background-color: #4682B4;
+  
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+     font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-size: 12px;
+}
+}
+img{
+
+}
+h1{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.foot{
+	text-align: center;
+	width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.btn,
+.btn:hover,
+.btn:focus{
+  cursor: pointer;
+  color: #333;
+  background-color: #fff;
+	border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+
+}
+.btn2,
+.btn2:hover,
+.btn2:focus{
+  margin-left: -4%;
+  position: fixed;
+  bottom: 30px;
+  cursor: pointer;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.metadinha {
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+    margin-right: auto;
+  margin-left: auto;
+
+}
+.capricornio{
+  background-image: url(images/capricornio.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+}
+.aquario{
+  background-image: url(images/aquario.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.peixes{
+  background-image: url(images/peixes.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.aries{
+  background-image: url(images/aries.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.touro{
+  background-image: url(images/touro.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.gemeos{
+  background-image: url(images/gemeos.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.cancer{
+  background-image: url(images/cancer.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.leao{
+  background-image: url(images/leao.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.virgem{
+  background-image: url(images/virgem.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.libra{
+  background-image: url(images/libra.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.escorpiao{
+  background-image: url(images/escorpiao.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.sagitario{
+  background-image: url(images/sagitario.png); /* Insere a imagem */
+  background-size: 25px 50px;
+       background-size: 20% 40%;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-position: center;
+
+}
+.teste{
+
+}
+
+

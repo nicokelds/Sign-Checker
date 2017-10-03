@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.ico">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+
+    <title>Descubra seu signo</title>
+<script>
+$(function() {
+    $( "#calendario" ).datepicker({
+      changeMonth: true,
+        changeYear: true,
+        dateFormat: 'dd/mm/yy',
+        dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+        dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+        dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+        monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+        monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+        yearRange: '1950:2020',
+
+      });
+
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+</script>
+
+         <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+    <script TYPE="text/javascript" src="script.js"></script>
+  </head>
+
+  <body onload="hideStuff()">       
+
+	 <form name="formulario">
+			 <div class="textinho">
+				      <!--<h1>Digite o dia em que você nasceu:</h1> 
+              <input type="text" id="dia" />-->
+			 </div>  
+        <div class="textinho">
+              <!--<h1>Digite o mês em que você nasceu:</h1> 
+              <input type="text" id="mes" />-->
+              <h1>Data: <input type="text" id="calendario" /></h1>
+       </div>
+       <div>
+				<input type="button" class="btn" id="btn" onclick="descobreSigno()" value="Descobrir!" />
+      </div>
+  </form>
+
+          <div class="foot">
+                    <p>Desenvolvido por Gabriel</p>
+            </div>
+          <div id="teste" class="teste"> </div>
+       
+          <input type="button" id="btn2" class="btn2" onclick="hideStuff()" value="Pesquisar novamente" />
+  </body>
+</html>
