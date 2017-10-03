@@ -1,1 +1,1 @@
-Projeto desenvolvido para aprendizado
+Projeto desenvolvido para aprendizado de JS, html e css
